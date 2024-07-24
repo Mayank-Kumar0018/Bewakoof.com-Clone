@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#uperr-nav {
+  background-color: #e9e7e7;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#uperr-nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #413f3f;
+}
+
+#uperr-nav li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+#middle-nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Montserrat", sans-serif;
+
+
+}
+
+#middle-nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+#middle-nav li {
+  padding: 0px 16px;
+}
+
+#logo {
+  margin-right: 60px;
+}
+
+#searchBox {
+  background-color: #dfdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 7px;
+}
+
+#searchBox input {
+  font-size: 11px;
+  width: 234px;
+  padding: 7px;
+  border: none;
+  background-color: #dfdbdb;
+}
