@@ -1,0 +1,54 @@
+declare -gx __EGL_VENDOR_LIBRARY_FILENAMES=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/share/glvnd/egl_vendor.d/50_mesa.json
+declare -gx REPL_IDENTITY_KEY=k2.secret.AXEXKt_OOMAWhFpAHrAw9nu0-eDUsdncYasVGUFnp9it0yzXUR1o8sgIzFD0k-8vH5yG-Enk2WET1zgZQfy3Sg
+declare -gx REPLIT_PID1_FLAG_REPLIT_RTLD_LOADER=1
+declare -gx NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPLIT_CLI=/nix/store/0kfsvsg0i7fs1d88dbn2bkyk81xxww6l-pid1-0.0.1/bin/replit
+declare -gx DISPLAY=:0
+declare -gx REPLIT_NIX_CHANNEL=stable-23_11
+declare -gx USER=runner
+declare -gx SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_OWNER=MayankKumar149
+declare -gx PROMPT_DIRTRIM=2
+declare -gx NIXPKGS_ALLOW_UNFREE=1
+declare -gx REPLIT_CLUSTER=kirk
+declare -gx REPL_SLUG=bewakoofcom-clone
+declare -gx LANG=en_US.UTF-8
+declare -gx REPLIT_PID1_FLAG_NIXMODULES_BEFORE_REPLIT_NIX=1
+declare -gx REPL_IMAGE=gcr.io/marine-cycle-160323/nix:bf8590a3e2f0a8b70b7ca175eeed9074dffbfca9
+declare -gx REPLIT_ENVIRONMENT=production
+declare -gx REPLIT_BASHRC=/nix/store/j644dpkpfrh4fmicps2vkzsafmb49mvs-replit-bashrc/bashrc
+declare -gx COLORTERM=truecolor
+declare -gx npm_config_prefix=/home/runner/bewakoofcom-clone/.config/npm/node_global
+declare -gx DENO_TLS_CA_STORE=system
+declare -gx REPL_LANGUAGE=html
+declare -gx XDG_CONFIG_HOME=/home/runner/bewakoofcom-clone/.config
+declare -gx REPLIT_SUBCLUSTER=interactive
+declare -gx REPL_HOME=/home/runner/bewakoofcom-clone
+declare -gx XDG_CACHE_HOME=/home/runner/bewakoofcom-clone/.cache
+declare -gx NIX_PATH=nixpkgs=/home/runner/.nix-defexpr/channels/nixpkgs-stable-23_11:/home/runner/.nix-defexpr/channels
+declare -gx REPLIT_PID1_VERSION=0.0.0-549840c
+declare -gx REPLIT_DEV_DOMAIN=803e0721-edb5-43c1-b42a-0b4e390e4ba3-00-6w5bsbuendb8.kirk.replit.dev
+declare -gx HOSTNAME=d20a4fa2c084
+declare -gx REPLIT_RTLD_LOADER=1
+declare -gx REPLIT_RIPPKGS_INDICES=/nix/store/mfrw2kh7ppd5qmjwm5sj9c41lkh2hlij-rippkgs-indices
+declare -gx DIRENV_CONFIG=/etc/direnv
+declare -gx LIBGL_DRIVERS_PATH=/nix/store/0lfnrz6nq5myv787cih78knzaqy9z9fc-mesa-23.1.9-drivers/lib/dri
+declare -gx REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+declare -gx REPL_OWNER_ID=21821255
+declare -gx GIT_EDITOR=replit-git-editor
+read -r _new_path <<< "/nix/store/f5npcdb42kb8ar40rqb61s7pbph33mxf-npx/bin:/home/runner/bewakoofcom-clone/.config/npm/node_global/bin:/home/runner/bewakoofcom-clone/node_modules/.bin:/nix/store/6xa1f86vfk2bkyra02gaac366iasrp8v-nodejs-20.12.2-wrapped/bin:/nix/store/1rq42zfbv87531jq5ifpxh6jzjlabi0m-bun-1.1.21/bin:/nix/store/77wblnm5dnmgnan3695j3mk4r7j75s5j-pnpm-8.15.5/bin:/nix/store/d03xglbinz66yml6h55q6an183bxqcma-yarn-1.22.22/bin:/nix/store/gand47797zf39q7kkbym78flj5wfh9wf-prettier-3.2.5/bin:/nix/store/f6bignmny64x9ibhf9aksdn9cw5wwbjy-pid1/bin:/nix/store/200w4x1ij4dn0dcqh6ws70bzdinyac2n-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+#PATH=/nix/store/f5npcdb42kb8ar40rqb61s7pbph33mxf-npx/bin:/home/runner/bewakoofcom-clone/.config/npm/node_global/bin:/home/runner/bewakoofcom-clone/node_modules/.bin:/nix/store/6xa1f86vfk2bkyra02gaac366iasrp8v-nodejs-20.12.2-wrapped/bin:/nix/store/1rq42zfbv87531jq5ifpxh6jzjlabi0m-bun-1.1.21/bin:/nix/store/77wblnm5dnmgnan3695j3mk4r7j75s5j-pnpm-8.15.5/bin:/nix/store/d03xglbinz66yml6h55q6an183bxqcma-yarn-1.22.22/bin:/nix/store/gand47797zf39q7kkbym78flj5wfh9wf-prettier-3.2.5/bin:/nix/store/f6bignmny64x9ibhf9aksdn9cw5wwbjy-pid1/bin:/nix/store/200w4x1ij4dn0dcqh6ws70bzdinyac2n-replit-runtime-path/bin:/home/runner/.nix-profile/bin:/home/runner/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+if [ -e "/run/replit/env/last" ]; then read -r _last_path < <(\grep '^#PATH=' /run/replit/env/last | cut -f 2 -d =); fi
+_user_components="$(\tr : $'\n' <<< "${PATH:-}" |\grep -xv -f <(\tr : $'\n' <<< "${_last_path}") |\tr $'\n' :)"
+declare -gx PATH="${_user_components}${_new_path}"
+declare -gx HOME=/home/runner
+declare -gx NIX_PS1='\[\033[01;34m\]\w\[\033[00m\]\$ '
+declare -gx DOCKER_CONFIG=/home/runner/bewakoofcom-clone/.config/docker
+declare -gx LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+declare -gx REPL_ID=803e0721-edb5-43c1-b42a-0b4e390e4ba3
+declare -gx REPLIT_DB_URL=https://kv.replit.com/v0/eyJhbGciOiJIUzUxMiIsImlzcyI6ImNvbm1hbiIsImtpZCI6InByb2Q6MSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25tYW4iLCJleHAiOjE3MjQ5ODM0MzEsImlhdCI6MTcyNDg3MTgzMSwiZGF0YWJhc2VfaWQiOiI4MDNlMDcyMS1lZGI1LTQzYzEtYjQyYS0wYjRlMzkwZTRiYTMiLCJ1c2VyIjoiTWF5YW5rS3VtYXIxNDkiLCJzbHVnIjoiODAzZTA3MjEtZWRiNS00M2MxLWI0MmEtMGI0ZTM5MGU0YmEzIn0.iPYGYvp14AW1B804rdIYbmV7qj0iNRLq7m6VG1ziae19gpUkcxYP7CcAycCAbiV8d4PCr99WmLJvuDz_TygL9A
+declare -gx GIT_ASKPASS=replit-git-askpass
+declare -gx NIX_PROFILES='/nix/var/nix/profiles/default /home/runner/.nix-profile'
+declare -gx REPL_PUBKEYS='{"crosis-ci":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:1":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","crosis-ci:latest":"7YlpcYh82oR9NSTtSYtR5jDL4onNzCGJGq6b+9CuZII=","prod":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:1":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","prod:2":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:3":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:4":"8uGN+vfszlnV93/HCSHlVLG0xddMlPkir1Ni4JKT4+w=","prod:5":"9+MCOSHQSQlcodXoot8dC8NLhc862nLkx1/VMsbY2h8=","prod:latest":"tGsjlu/BJvWTgvMaX7acuUb7AO1dXOrRiuk7y083RFE=","vault-goval-token":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:1":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E=","vault-goval-token:latest":"D5jJoMx1Ml54HM92NLgXl+MzptwDqbSsfyFG6f52g9E="}'
+declare -gx REPL_IDENTITY=v2.public.Q2lRNE1ETmxNRGN5TVMxbFpHSTFMVFF6WXpFdFlqUXlZUzB3WWpSbE16a3daVFJpWVRNU0RrMWhlV0Z1YTB0MWJXRnlNVFE1R2hGaVpYZGhhMjl2Wm1OdmJTMWpiRzl1WlNJa09EQXpaVEEzTWpFdFpXUmlOUzAwTTJNeExXSTBNbUV0TUdJMFpUTTVNR1UwWW1Fek9NZnVzd3BhRXdvRWEybHlheElMYVc1MFpYSmhZM1JwZG1VPeT84rZ2y_Fd5P65Fh6sqF0BO2vLtIWg-KfPO4EGhz6afyRn1bMX6II8UhLl_k6dE1qCGMBqDWB28oSbSnNMwQo.R0FFaUJtTnZibTFoYmhLYkNIWXlMbkIxWW14cFl5NVJNbVF6VTFkc1VHSlViREJhTVd4U1RtazVWR1ZxYkROVFZrNUZVVmR3V1UweVRsaE5hMHB2VVRCbmNsbHNRWHBSVjJoMlVUQmtRbFpYUmt0YU1qbHlWREJTUW1Wc2NGVlJWRTVPWVd0V01GZHNaRk5oVlRWVVRVUkNUazFyTVRSVVJtUktUVVV4ZEZKWVVrNVNNR3QzVjJ4U1RrNVZNVWhXVkVKYVlsVldObEl5YUVKVk1GSnlUVmRvYkZZd1dqRlpWRUl3VFZkS1dGSnViRTVXUmtVeFVqSmtWazVJWjNKT2JuQkVZVWM1U0ZOWFpGTmpiVVpaVTI1S1NGcDZRbmhSZWtwelpGZFNTRlp1YkZwV01EUjNXVlpvWVdKRmJIRldia3BPWVZSV00xcEdaRXRqTWtaWVZGaFdhbUpXU2s5Wk0zQkdaVVpLV0ZWdGFGWlNXR2hMVlZSQmVFNUdWbFZpUlhSV1UwWndUbHBWVFhoaGJVWkpWMjA1VkdGc1dsQlphMlJ2VW1zNVdGUlVRbE5OVmxwS1ZEQm9VbVF5U2pOUVZESlRhR0prTlU5eGQySlBhbUZxUlRGRGRsRm1ZbkJKYTA1bGREUmtObTFZY1dFNFMyRkhVV3RIVVZaWmNXRXdSa3RYV0doaVpGUjJaVzh6V1VGNVdWQk5hSE55YWpGVmIyMUVaMFEyUnprMmVESkxNVUZDTGxJd1JrWmhWVXAwVkc1YWFXSlVSbTlaYldoTldXdEdkVmRZYkUxaWEwbDRWMWN4TkdOR2JEVk9Wa3BPWWxaSk1sWlVSbXROUjFaMFUyeGFWR0p1UWxkV2JURTBWVEZTY2xWdFJrNVdia0pYVlRKMFQxWkdXbGxoUlZaV1pXdEtjbFZxUVRGVFZrWnlVMnhhVGxKc2NGTldiWEJQV1ZkU1YySXphRk5pVjJoVFZtcEtiMlJXVmxoa1IzUnBZa1UxV0ZsclZrOVdiVXBWWWtWV1ZtRnJTa2hhUjNoelZteEtkVkpzU2xkV1dFSktWakp3UTJNeFpITlNiR2hvVTBad1UxUlZaRk5STVZwSFdrVmtVbUpWV2tsWGExVjRWVEF4ZEZWcmRGZE5WbHBVVlZSS1NtUXhVbkpoUmtwWFlURndkbFpXV210aU1rcHpWRzVLYVZORldsaFpiWFIzVkRGc1YxVnNaRTVOV0VKSVYydFdNR0ZyTVhKWGJHeFhVbTFvV0ZaRVJtRmtSMVpKWTBaa1YySldTa2xXUmxKTFZESk5lVk5xV2xaaGVteFlWRmQ0UzJJeFdYbE5WRkpVVFd0YVIxUldWbXRXUjBwR1YyeGFXbFo2UlRCWFZscHpUbXhHVlZKdGNHbFNXRUkyVmtSR1YxbFhSWGxUYkd4V1ZrVmFWMWxyV21GamJIQklaVVZhYkZKdVFrWldNakYzWVVkRmVHTkhPVmRoYTFwVVZYcEdUbVZHV25OVGJFWlhVa1ZLTTFZeWRHRlhiVTUwWTBVeFVGZEZOSHBhUlZaYVRsWndSVkpZVW1saVZGWlJWREJrWVZWdFNsaGhSRXBVVWxad2VGWnJWbkprUjFKRllVVndhV0pXY0ZGWFJFbDRWbFV4ZEZsNlVtcFhTRUpHVld0a1ZrNUdXa1ZpUmxKb1RWWktObGR0ZUc5aVYxWnlZbnBDV0ZaVk1UWlhiWE4zWld4a1ZrNVlTbFJXUjFKWlYxZHJkMDVXU25KVmJUbFBZVlJHVEZScVNUVlNSWGh6VTFoa1UyRXhjRzlXYkZaM1RVWmFTRTVYUm1oV01IQldWVzB3TlZkdFNsaFZha3BXWVd0d1VGVXhXazlrVm1SMFVteE9VMlZ0WnpBPQ
+declare -gx XDG_DATA_HOME=/home/runner/bewakoofcom-clone/.local/share
